@@ -75,20 +75,22 @@
     background: rgb(41, 28, 28);
     animation: ini infinite 3s;
 
+    color: black;
+
 }
 
 @keyframes ini{
 
     0%{
-        background: rgb(207, 33, 33);
+        background: rgb(175, 169, 169);
     }
 
     60%{
-        background: rgb(73, 216, 54);
+        background: rgb(177, 226, 170);
     }
 
     100%{
-        background: rgb(55, 18, 218);
+        background: rgb(125, 101, 231);
     }
 }
 
