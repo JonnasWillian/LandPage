@@ -17,7 +17,9 @@
     padding: 0;
     background-color: rgb(183, 166, 209);
     font-family: 'Open Sans', sans-serif;
-
+    position: fixed;
+    width: 100%;
+    
 }
 
 #menu-h ul li{
@@ -69,6 +71,7 @@
    
     background: rgb(41, 28, 28);
     animation: ini infinite 3s;
+
 }
 
 @keyframes ini{
@@ -87,10 +90,8 @@
 }
 
 /* Responsividade */
-@media only screen and (max-device-width: 900px) {
-    #menu-h { width:600px; }
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
     }
-
-@media only screen and (max-device-width: 700px) {
-    #menu-h { width:400px; }
-    }
+}
